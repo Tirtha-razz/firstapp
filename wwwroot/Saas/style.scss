@@ -1,0 +1,25 @@
+$color:blue;
+
+@mixin addBorder($size, $color){
+    border: $size+px solid $color
+
+}
+
+.text-primary{
+    color:$color
+}
+
+
+.btn-primary{
+    cursor: pointer;
+    @extend .text-primary
+}
+
+body{
+    color: aqua;
+
+    p{
+        font-style: italic;
+        @include   addBorder(1,blue )
+        }
+}

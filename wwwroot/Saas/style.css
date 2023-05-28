@@ -1,0 +1,15 @@
+.text-primary, .btn-primary {
+  color: blue;
+}
+
+.btn-primary {
+  cursor: pointer;
+}
+
+body {
+  color: aqua;
+}
+body p {
+  font-style: italic;
+  border: 1px solid blue;
+}/*# sourceMappingURL=style.css.map */
